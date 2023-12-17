@@ -7,7 +7,7 @@ screen = turtle.Screen()
 screen.title("BR States Game")
 screen.setup(width=800, height=750)
 screen.bgcolor("black")
-image = Image.open("1.intro-to-geobr_15_1.gif")
+image = Image.open("image/1.intro-to-geobr_15_1.gif")
 score = Score()
 states = States()
 

@@ -7,6 +7,7 @@ ALIGNMENT = 'center'
 FONT = ('Courier', 24, 'bold')
 STATES = br_states_game["states"].tolist()
 
+
 class Score(Turtle):
     def __init__(self):
         super().__init__()
@@ -42,4 +43,4 @@ class Score(Turtle):
         data = pd.DataFrame({
             "states_to_learn": self.list_states
         })
-        data.to_csv("states_to_learn.csv")
+        data.to_csv("database/states_to_learn.csv")
